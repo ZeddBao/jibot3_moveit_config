@@ -1,0 +1,16 @@
+# Publish joint_states
+joint_state_controller:
+  type: joint_state_controller/JointStateController
+  publish_rate: 50
+
+# gazebo_ros_control:
+#   pid_gains:
+#     joint1: {p: 100, i: 0, d: 10}
+#     joint2: {p: 100, i: 0, d: 10}
+#     joint3: {p: 100, i: 0, d: 10}
+#     joint4: {p: 100, i: 0, d: 10}
+#     joint5: {p: 100, i: 0, d: 10}
+#     joint6_1: {p: 100, i: 0, d: 10}
+#     joint7_1: {p: 100, i: 0, d: 10}
+#     joint6_2: {p: 100, i: 0, d: 10}
+#     joint7_2: {p: 100, i: 0, d: 10}
