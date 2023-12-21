@@ -1,7 +1,7 @@
 controller_list:
   - name: arm_controller
-    action_ns: follow_joint_trajectory
-    type: FollowJointTrajectory
+    action_ns: position_controllers/JointTrajectoryController
+    type: position_controllers/JointTrajectoryController
     default: True
     joints:
       - joint1
@@ -10,8 +10,8 @@ controller_list:
       - joint4
       - joint5
   - name: gripper_controller
-    action_ns: follow_joint_trajectory
-    type: FollowJointTrajectory
+    action_ns: position_controllers/JointTrajectoryController
+    type: position_controllers/JointTrajectoryController
     default: True
     joints:
       - joint6_1
